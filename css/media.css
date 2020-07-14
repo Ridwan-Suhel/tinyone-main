@@ -1,4 +1,38 @@
 /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 767px) {
+	/*common title area*/
+	.common-title p {
+    padding: 0px 0px;
+	}
+	.common-title h1 {
+    font-size: 29px;
+	}
+	.common-title p {
+    font-size: 18px;
+	}
+	/*feature area*/
+	.feature-boxes .f-box-wrapper .icon i {
+    font-size: 35px;
+	}
+	.feature-boxes .f-b-content p {
+    padding-right: 0px;
+	}
+	.feature-section {
+    padding: 50px 0px;
+	}
+	.feature-boxes {
+    margin-top: 20px;
+	}
+	/*feature area end*/
+	.support-section {
+    padding: 50px 0px;
+	}
+	/*footer*/
+	.footer-section{
+	padding: 0px 0px 60px 0px;
+	}
+
+}
 @media (max-width: 575.98px) {
 /*header start*/
 	header nav ul li{
@@ -21,6 +55,18 @@
 	    padding-right: 0px;
 		}
 	/*header end*/
+	/*features*/
+	.feature-boxes .f-b-content h2 {
+    margin: 10px 0px;
+	}
+	.icon {
+    text-align: left!important;
+	}
+	/*features end*/
+	/*footer*/
+	.su-form .btn-custom{
+		margin-top: 25px;
+	}
 }
 
 /*Small devices (landscape phones, 576px and up)*/
